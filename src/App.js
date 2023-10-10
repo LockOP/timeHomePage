@@ -84,7 +84,7 @@ function App() {
           // className={`bg-[rgba(255,255,255,0.3)] rounded-[${
           //   cF / 3
           // }px] p-[20px] flex flex-col font-['MuseoModerno'] font-normal text-3xl cursor-default`}
-          className={`bg-[rgba(255,255,255,0.3)] rounded-[10px] py-[20px] px-[30px] flex flex-col font-['MuseoModerno'] font-normal text-3xl cursor-default max-[890px]:mb-20 max-[890px]:text-xl`}
+          className={`bg-[rgba(255,255,255,0.3)] rounded-[10px] py-[20px] px-[30px] flex flex-col font-['MuseoModerno'] font-normal text-3xl cursor-default max-[890px]:text-xl max-[890px]:mb-[140px]`}
         >
           <div className="relative">
             <p
@@ -126,7 +126,7 @@ function App() {
         className={`absolute z-40 right-0 bottom-0 flex justify-end items-end p-[50px] max-[890px]:right-auto max-[890px]:left-0`}
       >
         <div
-          className={`flex flex-col font-normal text-sm items-end gap-2 max-[890px]:items-start`}
+          className={`flex flex-col font-normal text-sm items-end gap-2 max-[890px]:items-start max-[890px]:mb-[30px]`}
         >
           <div className="flex flex-row items-center gap-2 max-[890px]:flex-row-reverse">
             <a
