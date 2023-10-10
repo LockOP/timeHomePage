@@ -137,7 +137,9 @@ function App() {
             >
               https://github.com/LockOP
             </a>
-            <AiFillGithub size={20} />
+            <div className="w-[20px] flex items-center">
+              <AiFillGithub size={20} />
+            </div>
           </div>
 
           <div className="flex flex-row items-center gap-2 max-[890px]:flex-row-reverse">
@@ -149,7 +151,9 @@ function App() {
             >
               https://www.linkedin.com/in/arul-madhava-3a4238196
             </a>
-            <AiFillLinkedin size={20} />
+            <div className="w-[20px] flex items-center">
+              <AiFillLinkedin size={20} />
+            </div>
           </div>
         </div>
       </div>
