@@ -126,7 +126,7 @@ function App() {
         className={`absolute z-40 right-0 bottom-0 flex justify-end items-end p-[50px] max-[890px]:right-auto max-[890px]:left-0`}
       >
         <div
-          className={`flex flex-col font-normal text-sm items-end gap-2 max-[890px]:items-start max-[890px]:mb-[30px]`}
+          className={`flex flex-col font-normal text-sm items-end gap-2 max-[890px]:items-start max-[890px]:mb-[50px]`}
         >
           <div className="flex flex-row items-center gap-2 max-[890px]:flex-row-reverse">
             <a
