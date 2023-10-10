@@ -53,7 +53,7 @@ function App() {
         className={`absolute w-screen h-screen p-[50px]`}
       >
         <div className="w-full h-full relative flex flex-col">
-          <div className="w-full flex flex-row justify-between">
+          <div className="w-full flex flex-row justify-between max-[890px]:flex-col max-[890px]:justify-start">
             <p className="font-['MuseoModerno'] font-black tracking-[5px] text-[100px] leading-[100px] text-[#ffffffe7] bg-transparent">
               time
             </p>
@@ -84,13 +84,13 @@ function App() {
           // className={`bg-[rgba(255,255,255,0.3)] rounded-[${
           //   cF / 3
           // }px] p-[20px] flex flex-col font-['MuseoModerno'] font-normal text-3xl cursor-default`}
-          className={`bg-[rgba(255,255,255,0.3)] rounded-[10px] py-[20px] px-[30px] flex flex-col font-['MuseoModerno'] font-normal text-3xl cursor-default`}
+          className={`bg-[rgba(255,255,255,0.3)] rounded-[10px] py-[20px] px-[30px] flex flex-col font-['MuseoModerno'] font-normal text-3xl cursor-default max-[890px]:mb-20 max-[890px]:text-xl`}
         >
           <div className="relative">
             <p
               className={`text-[#${
                 status ? "0f3654" : "fff"
-              }] absolute top-[-10px] left-[-20px] font-sans text-5xl`}
+              }] absolute top-[-10px] left-[-20px] font-sans text-5xl max-[890px]:text-2xl`}
             >
               "
             </p>
@@ -107,7 +107,7 @@ function App() {
             <p
               className={`text-[#${
                 status ? "fff" : "0f3654"
-              }] absolute bottom-[-10px] right-[-20px] font-sans text-5xl`}
+              }] absolute bottom-[-10px] right-[-20px] font-sans text-5xl max-[890px]:text-2xl`}
             >
               "
             </p>
@@ -115,7 +115,7 @@ function App() {
           </div>
           <div className="transition-all duration-300">
             {status && (
-              <p className="text-[#0f3654] text-base italic w-full flex justify-end mt-2">
+              <p className="text-[#0f3654] text-base italic w-full flex justify-end mt-2  max-[890px]:text-sm">
                 - Hippocrates
               </p>
             )}
@@ -123,12 +123,12 @@ function App() {
         </div>
       </div>
       <div
-        className={`absolute z-40 right-0 bottom-0 flex justify-end items-end p-[${
-          t + cF
-        }px]`}
+        className={`absolute z-40 right-0 bottom-0 flex justify-end items-end p-[50px] max-[890px]:right-auto max-[890px]:left-0`}
       >
-        <div className={`flex flex-col font-normal text-sm items-end gap-2`}>
-          <div className="flex flex-row items-center gap-2">
+        <div
+          className={`flex flex-col font-normal text-sm items-end gap-2 max-[890px]:items-start`}
+        >
+          <div className="flex flex-row items-center gap-2 max-[890px]:flex-row-reverse">
             <a
               target="_blank"
               className=""
@@ -140,7 +140,7 @@ function App() {
             <AiFillGithub size={20} />
           </div>
 
-          <div className="flex flex-row items-center gap-2">
+          <div className="flex flex-row items-center gap-2 max-[890px]:flex-row-reverse">
             <a
               target="_blank"
               rel="noreferrer"
