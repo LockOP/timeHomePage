@@ -64,6 +64,14 @@ function App() {
               <p className="font-['MuseoModerno'] text-[#ffffff]">
                 Font used : MuseoModerno
               </p>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://youtube.com/shorts/9Hnn5pT2e00?si=GjAyVet6tuT8b7db"
+                className="font-['MuseoModerno'] text-[#ffffff]"
+              >
+                Inspired from : youtube.com/@nick.the.designer
+              </a>
             </div>
           </div>
         </div>
@@ -72,7 +80,7 @@ function App() {
         // className={`absolute w-screen z-20 h-screen flex justify-start items-end p-[${
         //   t + cF
         // }px]`}
-        className={`absolute w-screen z-20 h-screen flex justify-start items-end p-[50px]`}
+        className={`absolute left-0 bottom-0 z-20  flex justify-start items-end p-[50px]`}
       >
         <div
           onMouseEnter={() => {
